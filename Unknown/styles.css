@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.app {
+  text-align: center;
+  padding: 2rem;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #ff6347;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.reservation-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+input:focus {
+  border-color: #ff6347;
+  outline: none;
+}
+
+.submit-button {
+  background-color: #ff6347;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #e5533f;
+}
+
+.confirmation {
+  text-align: center;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.confirmation h2 {
+  color: #ff6347;
+  margin-bottom: 1rem;
+}

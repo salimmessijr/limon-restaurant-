@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES5",                          // Specifies the JavaScript version output. ES5 ensures compatibility with older browsers.
+    "lib": ["DOM", "DOM.Iterable", "ESNext"], // Specifies the libraries to include for compilation.
+    "allowJs": true,                          // Allow JavaScript files to be part of the project.
+    "skipLibCheck": true,                     // Skip type checking for libraries to speed up builds.
+    "esModuleInterop": true,                  // Enables `import`/`export` compatibility for CommonJS modules.
+    "allowSyntheticDefaultImports": true,     // Allows default imports from modules without a default export.
+    "strict": true,                           // Enables strict type-checking options.
+    "forceConsistentCasingInFileNames": true, // Disallows inconsistently-cased imports.
+    "module": "ESNext",                       // Specifies the module code generation.
+    "moduleResolution": "Node",               // Ensures module resolution is node-compatible.
+    "resolveJsonModule": true,                // Enables importing `.json` files.
+    "isolatedModules": true,                  // Ensures every file is treated as its own module.
+    "noEmit": true,                           // Prevents emitting JavaScript files during build.
+    "jsx": "react-jsx"                        // Specifies JSX handling for React.
+  },
+  "include": [
+    "src"                                     // Includes all files in the `src` directory for the project.
+  ],
+  "exclude": [
+    "node_modules",                           // Excludes `node_modules` from the project.
+    "build"                                   // Excludes the build folder.
+  ]
+}
